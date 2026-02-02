@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build with Buildozer
-        uses: ArtemSerebrenn/buildozer-action@v1
+        uses: GearSnd/buildozer-action@v1
         with:
           buildozer_version: stable
           python_version: 3.10
